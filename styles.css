@@ -1,0 +1,84 @@
+body{
+    margin: 50px;
+    padding: 0;
+    background-color: #FEFF86;
+}
+
+.container{
+    background-color: #19A7CE;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+h1{
+    font-size: 78px;
+    margin-bottom: 20px;
+    color: #B0DAFF;
+}
+p{
+    margin-top: 0;
+    font-size: 50px;
+}
+
+input[type="number"]{
+    width: 800px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+select{
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+label{
+    font-size: 25px;
+    padding: 20px;
+}
+
+button{
+    padding: 20px 70px;
+    background-color: blue;
+    color:  #B0DAFF;
+    cursor: pointer;
+    border: none;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 30px;
+}
+
+#result{
+    margin-top: 20px;
+    padding: 25px;
+    font-size: 30px;
+    background-color: #B0DAFF;
+    color: #146C94;
+}
+
+@media (max-width:1250px) {
+    h1{
+        font-size: 85px;
+    }
+    input[type="number"]{
+       max-width: 400px;
+        font-size: 25px;
+    }
+    select{
+        font-size: 22px;
+    }
+    button{
+        padding: 20px 40px;
+        margin-top: 20px;
+        font-size: 25px;
+    }
+    #result{
+        font-size: 30px;
+    }
+    label{
+        padding: 10px;
+        font-size: 30px;
+    }
+}

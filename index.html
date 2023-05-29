@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tempcon</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>TEMPCON</h1>
+        <p>Temperature Converter, All you need is here.</p>
+        <div class="components">
+            <input type="number" id="tempinput" placeholder="Enter the Temperature">
+            <label for="fromunit">From:</label>
+            <select id="fromunit">
+               <option value="celsius">Celsius</option>
+               <option value="fahrenheit">Fahrenheit</option>
+               <option value="kelvin">Kelvin</option>
+            </select>
+            <label for="tounit">To:</label>
+            <select id="tounit">
+                <option value="celsius">Celsius</option>
+                <option value="fahrenheit">Fahrenheit</option>
+                <option value="kelvin">Kelvin</option>
+            </select>
+            <button onclick="converttemp()">Convert</button>
+        </div>
+        <div id="result"></div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

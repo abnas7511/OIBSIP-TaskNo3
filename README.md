@@ -1,2 +1,2 @@
-# OIBSIP-TaskNo3
-This Repository Consist of Task3 of Oasis Infobyte Internship
+# Temperature Converter
+This Repository Consist of a Temperature converter
